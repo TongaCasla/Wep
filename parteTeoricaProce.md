@@ -68,13 +68,16 @@ Luego se pasa a las funciones que se realizaron 3 funciones que devuelven una ta
 Para finalizar se realizó un procedimiento y una funcion en la que ambos reciben un mismo tipo de parámetro, un id que refiere a un conserje, y la idea a probar es que ambas devuelvan los mismos resultados y comparando la eficiencia entre ellas.
 
 En el siguiente enlace se encuentra el script sql referido a este tema
+
 [Script Procedimientos y Funciones](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/script/Prodecimiento%20y%20Funciones/Prodecimientos.sql)
 
 **Resultados**
 + Estructura del procedimiento InsertGasto
+
 ![Proced-InsertGasto](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Procedimiento.jpg)
 
 + Estructura de la función FuncionCalcularEdad
+
 ![FuncionCalcularEdad](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Funcion.jpg)
 
 + Ubicación de los procedimientos y funciones dentro de la base de datos
@@ -84,18 +87,22 @@ En el siguiente enlace se encuentra el script sql referido a este tema
 + Comparación de los planes de ejecución de una funcion y de un procedimiento que devuelven el mismo resultado
 
     * Plan de ejecución de la función FuncionCalcularEdad
+
     ![Plan-Funcion](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/PlanFuncion.jpg)
 
     * Plan de ejecución del procedimiento sp_CalcularEdadConBucle
+
     ![Plan-Procedimiento](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/PlanProcedimiento.jpg)
 
     * Resultado de ambas querys
-        * Query
-        ---Procedimientos vs funciones
+
+        * Querys
         --Procedimiento 
         exec dbo.sp_CalcularEdadConBucle @idconserje=1
         --Funcion
         select c.apeynom ,dbo.FuncionCalcularEdad(c.idconserje) as edad  from conserje c
+
+
     ![Resultado](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Resultado.jpg)
 
 
