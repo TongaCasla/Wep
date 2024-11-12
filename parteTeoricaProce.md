@@ -97,8 +97,9 @@ En el siguiente enlace se encuentra el script sql referido a este tema
     * Resultado de ambas querys
 
         * Querys
-        -Procedimiento 
 
+        -Procedimiento 
+        
         exec dbo.sp_CalcularEdadConBucle @idconserje=1
 
         -Funcion
