@@ -99,7 +99,7 @@ En el siguiente enlace se encuentra el script sql referido a este tema
         * Querys
 
         -Procedimiento 
-        
+
         exec dbo.sp_CalcularEdadConBucle @idconserje=1
 
         -Funcion
@@ -107,7 +107,7 @@ En el siguiente enlace se encuentra el script sql referido a este tema
         select c.apeynom ,dbo.FuncionCalcularEdad(c.idconserje) as edad  from conserje c
 
 
-    ![Resultado](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Resultado.jpg)
+        ![Resultado](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Resultado.jpg)
 
 
 conclusion
