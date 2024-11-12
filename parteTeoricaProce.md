@@ -109,10 +109,14 @@ En el siguiente enlace se encuentra el script sql referido a este tema
 
         ![Resultado](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/Procedimientos_Funciones/Resultado.jpg)
 
-
-conclusion
+----
+Respecto al tema de procedimientos y funciones se puede concluir que ambos reducen el tráfico de red , favorecen la reutilización de código y por ende una reducción en el costo de procesamiento al ejecutar las sentencias.
+Ahora bien también tienen sus diferencias y el uso de uno u otro va a depender de la necesidad o de lo que se deba realizar. Por ejemplo en el desarrollo se vio que se puede hacer que un procedimiento simule la ejecución de una función, pero como se pudo observar el costo de ejecución es mucho mayor que el de la función y eso se traduce también en la cantidad y complejidad de las sentencias de código, en la que ejecutando la función se obtiene un resultado igual con menos costo de procesamiento y un grado de complejidad mucho menor en su estrucura.
 
 
 
 -----
-bibliografia
+
+[Procedimientos-Microsoft](https://learn.microsoft.com/es-es/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-ver16)
+
+[Funciones-Microsoft](https://learn.microsoft.com/es-es/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-ver16)
