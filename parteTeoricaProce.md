@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 **TEMA 1 Procedimientos y Funciones** 
 
 +**Procedimientos** 
@@ -58,3 +60,4 @@ Al igual que las funciones de los lenguajes de programación, las funciones defi
 
 6. Uso en declaraciones SELECT: una función se puede incrustar en una declaración SELECT, pero un procedimiento almacenado no. 
  
+ </div>
