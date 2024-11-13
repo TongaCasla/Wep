@@ -451,12 +451,12 @@ Tabla Original con indice Existente
 
  **Comparacion de los planos de ejecucion para los distintos tipos de indices**
     A continuacion, compararemos el rendimiento de una consulta en la tabla original con indices y en la nueva tabla sin indices.
-    [Texto alternativo]( https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSSININDICES..jpg)
+    ![Texto alternativo]( https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSSININDICES.jpg)
  
 
   se compara los tiempos de acceso con indices agrupaso y sin agrupar
 
-   [Texto alternativo](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSCONINDICESINAGRUPAR.jpg)
+   ![Texto alternativo](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSCONINDICESINAGRUPAR.jpg)
 
  
      Eliminar el índice no agrupado en la tabla 'gasto_sin_indices'
@@ -464,7 +464,8 @@ DROP INDEX IDX_gasto_sin_indices_fechapago ON gasto_sin_indices;
 Crear índice agrupado en la tabla 'gasto_sin_indices'
 CREATE CLUSTERED INDEX IDX_Clustered_gasto_sin_indices_fechapago ON gasto_sin_indices(fechapago)
        se vuelve a comparar los tiempos de accesos ahora con el indice agrupado
-  ![Texto alternativo](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSCONINDICESAGRUPADOS.j)
+
+  ![Texto alternativo](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/doc/OPTIMIZACION%20_PLAN_EJECUCION/RESULTADOSCONINDICESAGRUPADOS.jpg)
 
 [Script](https://github.com/TongaCasla/Proyecto_Consorcio_BaseDatos1/blob/main/script/Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/SQLQueryIndices.sql)
 
