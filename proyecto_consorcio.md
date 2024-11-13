@@ -6,10 +6,10 @@
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
 
 **Integrantes**:
- -Dusicka, Marisol 
- -Miltos, Sonia
- -Morales, Alan Gaston
- -Mordacini Gianella
+ * Dusicka, Marisol 
+ * Miltos, Sonia
+ * Morales, Alan Gaston
+ * Mordacini Gianella
 
 **Año**: 2024
 
